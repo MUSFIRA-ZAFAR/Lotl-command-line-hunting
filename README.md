@@ -19,27 +19,6 @@ Detecting attackers who don't bring malware — they just use what's already on 
 
 ---
 
-## 📖 Table of Contents
-
-- [What is "Living off the Land"?](#-what-is-living-off-the-land)
-- [Project Objective](#-project-objective)
-- [Lab Architecture](#-lab-architecture)
-- [Tools & Environment](#-tools--environment)
-- [Walkthrough](#-walkthrough)
-  - [1. Infrastructure Setup](#1-infrastructure-setup)
-  - [2. Sysmon Deployment](#2-sysmon-deployment)
-  - [3. Executing the Attack](#3-executing-the-attack)
-  - [4. Capturing the Evidence](#4-capturing-the-evidence)
-  - [5. Log Ingestion into Splunk](#5-log-ingestion-into-splunk)
-  - [6. Building the Detection](#6-building-the-detection)
-- [Key Finding: A Silent Logging Blackout](#-key-finding-a-silent-logging-blackout)
-- [MITRE ATT&CK Mapping](#-mitre-attck-mapping)
-- [Repository Structure](#-repository-structure)
-- [Skills Demonstrated](#-skills-demonstrated)
-- [Author](#-author)
-
----
-
 ## 🧠 What is "Living off the Land"?
 
 Imagine a burglar breaks into a house — but instead of bringing a
