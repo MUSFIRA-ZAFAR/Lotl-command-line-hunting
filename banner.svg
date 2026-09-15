@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="55%" stop-color="#0f1c2e"/>
+      <stop offset="100%" stop-color="#0b0f19"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00e5a0"/>
+      <stop offset="100%" stop-color="#00b7ff"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1c2a3d" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" fill="url(#bg)"/>
+  <rect width="1200" height="260" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- glowing accent bar -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)"/>
+
+  <!-- terminal-style prompt icon -->
+  <g transform="translate(60,80)">
+    <rect x="0" y="0" width="100" height="100" rx="14" fill="#111827" stroke="#00e5a0" stroke-width="2"/>
+    <text x="20" y="45" font-family="Consolas, Monaco, monospace" font-size="26" fill="#00e5a0">&gt;_</text>
+    <circle cx="18" cy="18" r="4" fill="#ff5f56"/>
+    <circle cx="34" cy="18" r="4" fill="#ffbd2e"/>
+    <circle cx="50" cy="18" r="4" fill="#27c93f"/>
+  </g>
+
+  <!-- Title -->
+  <text x="195" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" fill="#f5f7fa">
+    Living off the Land
+  </text>
+  <text x="195" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600" fill="url(#accent)">
+    Command-Line Threat Hunting Lab
+  </text>
+
+  <!-- subtitle -->
+  <text x="197" y="196" font-family="Consolas, Monaco, monospace" font-size="16" fill="#8a97ab">
+    Sysmon &#183; Windows Server 2022 &#183; Splunk SPL &#183; MITRE ATT&amp;CK T1490 / T1218
+  </text>
+
+  <!-- right-side badges -->
+  <g font-family="Consolas, Monaco, monospace" font-size="14" fill="#8a97ab">
+    <rect x="880" y="30" width="260" height="28" rx="14" fill="#111827" stroke="#243146"/>
+    <text x="900" y="49" fill="#00e5a0">● AWS EC2</text>
+
+    <rect x="880" y="66" width="260" height="28" rx="14" fill="#111827" stroke="#243146"/>
+    <text x="900" y="85" fill="#00b7ff">● Sysmon v15.22</text>
+
+    <rect x="880" y="102" width="260" height="28" rx="14" fill="#111827" stroke="#243146"/>
+    <text x="900" y="121" fill="#ffbd2e">● Splunk Enterprise</text>
+
+    <rect x="880" y="138" width="260" height="28" rx="14" fill="#111827" stroke="#243146"/>
+    <text x="900" y="157" fill="#ff6b6b">● vssadmin.exe / T1490</text>
+  </g>
+
+  <rect x="0" y="254" width="1200" height="6" fill="url(#accent)"/>
+</svg>
